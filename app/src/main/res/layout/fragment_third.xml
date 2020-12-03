@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/myScreen"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <SeekBar
+        android:id="@+id/mySeekingBar_R"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+        android:color="Red"/>
+
+
+    <SeekBar
+        android:id="@+id/mySeekingBar_G"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+        android:color="Green"/>
+    <SeekBar
+        android:id="@+id/mySeekingBar_B"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+        android:color="Blue"/>/>
+    <TextView
+        android:id="@+id/textview_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/>
+
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Color"
+        android:layout_gravity="center"/>
+</LinearLayout>
